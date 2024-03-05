@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "department": "IT",
+        "position": "Software Engineer",
+        "joiningDate": "2023-01-15"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "department": "HR",
+        "position": "HR Manager",
+        "joiningDate": "2022-11-20"
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com",
+        "department": "Finance",
+        "position": "Financial Analyst",
+        "joiningDate": "2023-03-10"
+    }
+]

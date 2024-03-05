@@ -1,0 +1,27 @@
+<div class="container">
+    <h2>Add Employee</h2>
+    <form (ngSubmit)="onSubmit()" #employeeForm="ngForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" required [(ngModel)]="newEmployee.name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required [(ngModel)]="newEmployee.email">
+      </div>
+      <div class="form-group">
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" class="form-control" required [(ngModel)]="newEmployee.department">
+      </div>
+      <div class="form-group">
+        <label for="position">Position:</label>
+        <input type="text" id="position" name="position" class="form-control" required [(ngModel)]="newEmployee.position">
+      </div>
+      <div class="form-group">
+        <label for="joiningDate">Joining Date:</label>
+        <input type="date" id="joiningDate" name="joiningDate" class="form-control" required [(ngModel)]="newEmployee.joiningDate">
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!employeeForm.valid">Add Employee</button>
+    </form>
+  </div>
+  
